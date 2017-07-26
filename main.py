@@ -3,10 +3,9 @@
 import kivy
 from kivy.app import App
 from kivy.config import Config
-from kivy.uix.screenmanager import ScreenManager,Screen
-
-from Scripts.padnumerico import Pad
 from Media.Textos import Textos
+from Scripts.padnumerico import Pad
+from kivy.uix.screenmanager import ScreenManager,Screen
 
 Config.set('graphics', 'width', '480')
 Config.set('graphics', 'height', '800')
